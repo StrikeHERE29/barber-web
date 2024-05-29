@@ -105,3 +105,40 @@ span{
     font-size: 12px;
     font-weight: bold;
 }
+
+.about{
+    margin-top: 20px;
+    background-color: var(--primary-color);
+    color: white;
+    font-family: "inknut antiqua", sans-serif;
+    font-size: 12px;
+}
+
+
+.about-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-img{
+    max-width: 190px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 150px/150px;
+    
+}
+
+
+.about-text{
+    min-width: 150px;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+.about-title{
+    margin-left: 30%;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
