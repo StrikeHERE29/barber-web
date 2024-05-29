@@ -88,3 +88,20 @@ span{
 .second{
     max-width: 170px;
 }
+
+
+.call-buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.consult{
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    color:var(--primary-color);
+    font-family: "inknut antiqua", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
